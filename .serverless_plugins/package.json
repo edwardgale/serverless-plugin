@@ -1,0 +1,22 @@
+{
+  "name": "serverless-log-keep-plugin",
+  "version": "0.1.0",
+  "description": "Serverless Log Keep Plugin",
+  "author": "Gale Software",
+  "main": "src/functions/ves-mongo.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "serverless": "^1.30.0",
+    "serverless-iam-roles-per-function": "^1.0.4",
+    "serverless-plugin-aws-alerts": "^1.2.4",
+    "serverless-plugin-tracing": "^2.0.0",
+    "serverless-pseudo-parameters": "^2.2.0",
+    "serverless-tag-cloud-watch-logs": "^1.0.0"
+  },
+  "scripts": {
+    "lint": "eslint"
+  }
+}
